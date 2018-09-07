@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.main-container{
+    margin:0 5em;
+}
+button{
+    margin-top: 1.3em;
+    border-radius: 0.4em;
+    color: #d1404e;    
+    border: 0.1em solid;
+    background-color: white;
+    border-color: #d1404e;
+    padding:1em;
+    width: 25em;
+}
+h*{
+    font-family: sans-serif;
+}
+
+#title-section{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+p{
+    font-family: 'Roboto',sans-serif;
+    color: #7f888f;
+}
+#title-section .item-1 h3 {
+    grid-column: 1;
+    grid-row: 1;
+    border-bottom:0.2em solid red;
+    padding-bottom: 0.5em;
+}
+
+#image-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 150px;
+    border-bottom: 1px solid gray;
+}
+#image-section .item-1{
+    padding-left: 1em;
+
+}
+#image-section .item-2 {
+    padding-left: 2em;
+
+}
+#image-section .item-2 img{
+    width: 500px;
+    height: 260px;
+    border-radius: 1em;
+}
